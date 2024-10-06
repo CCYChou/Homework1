@@ -56,15 +56,17 @@ st.write(f"Mean Squared Error (MSE): {mse:.2f}")
 st.write(f"R-squared (R²): {r2:.2f}")
 
 # Step 6: Visualization
-# Scatter plot of actual vs. predicted values
+# Convert X_test to a flat array for plotting
 plt.figure(figsize=(10, 6))
-plt.scatter(X_test, y_test, label="Actual", color="blue")
-plt.plot(X_test, y_pred, label="Predicted", color="red", linewidth=2)
+plt.scatter(X_test.values, y_test, label="Actual", color="blue")
+plt.plot(X_test.values, y_pred, label="Predicted", color="red", linewidth=2)
 plt.title("Actual vs. Predicted Values")
 plt.xlabel("X")
 plt.ylabel("y")
 plt.legend()
-st.pyplot(plt)
+plt.grid(True)  # Optionally add grid for better clarity
+st.pyplot(plt.gcf())  # Use gcf() to get the current figure
+plt.clf()  # Clear the figure after rendering
 
 # Step 7: Rerun functionality
 st.write("You can adjust the parameters in the sidebar to see the effects on the model and re-run the analysis.")
