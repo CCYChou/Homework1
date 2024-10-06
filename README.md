@@ -1,6 +1,6 @@
 # 使用 CRISP-DM 進行線性回歸分析
 
-這個 Streamlit 應用程式展示了如何使用 CRISP-DM（跨行業標準數據挖掘流程）方法進行線性回歸分析。它允許用戶調整關鍵參數，並即時觀察這些參數對模型表現的影響。
+這個 Streamlit 應用程式展示了如何使用 CRISP-DM（開放的標準流程模型）方法進行線性回歸分析。它允許用戶調整關鍵參數，並即時觀察這些參數對模型表現的影響。
 
 ## 目錄
 - [概述](#概述)
@@ -26,24 +26,24 @@
 
 按照以下步驟在本地運行此應用程式：
 
-1. **克隆此倉庫**：
+1. **clone**：
     ```bash
     git clone https://github.com/yourusername/linear-regression-crispdm.git
     cd linear-regression-crispdm
     ```
 
-2. **創建虛擬環境**（可選，但推薦）：
+2. **創建虛擬環境**（可選）：
     ```bash
     python -m venv venv
     source venv/bin/activate  # Windows 系統使用: venv\Scripts\activate
     ```
 
-3. **安裝依賴包**：
+3. **安裝包**：
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **運行 Streamlit 應用**：
+4. **運行 Streamlit **：
     ```bash
     streamlit run HW.py
     ```
