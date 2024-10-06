@@ -45,7 +45,7 @@
 
 4. **運行 Streamlit 應用**：
     ```bash
-    streamlit run app.py
+    streamlit run HW.py
     ```
 
 5. **在瀏覽器中打開應用**：
