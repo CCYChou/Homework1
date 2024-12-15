@@ -68,6 +68,9 @@
 
 ## 演示
 ![image](https://github.com/user-attachments/assets/e0f46884-7257-4b39-b098-803107816dd5)
+## chatGPT輔助
+![image](https://github.com/user-attachments/assets/195b6f50-7b26-4bca-9179-fd3b5ddbd766)
+
 
 
 
