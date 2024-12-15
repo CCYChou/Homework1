@@ -66,4 +66,8 @@
 5. **評估**：使用 MSE 和 R² 指標評估模型表現。
 6. **部署**：通過 Streamlit 部署具有交互功能的應用程式。
 
+## 演示
+![image](https://github.com/user-attachments/assets/e0f46884-7257-4b39-b098-803107816dd5)
+
+
 
